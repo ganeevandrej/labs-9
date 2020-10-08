@@ -1,0 +1,13 @@
+{
+	int A, B, C, k = 0, S1, S2;
+	scanf_s("%d %d %d", &A, &B, &C);
+	S1 = A * B;
+	S2 = C * C;
+	while (S1 >= S2)
+	{
+	   S1-= S2;
+	  k++;
+	}
+	printf("%d %d", S1, k);
+	return 0;
+}
