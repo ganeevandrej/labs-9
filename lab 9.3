@@ -1,0 +1,11 @@
+#include <stdio.h>
+#include <math.h>
+
+int main()
+{
+	int K, N=rand()%7;
+	scanf_s("%d",&K);
+	K = (K+N) % 7;
+	printf("%d", K);
+	return 0;
+}
